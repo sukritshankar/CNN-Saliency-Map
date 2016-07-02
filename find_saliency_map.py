@@ -60,9 +60,9 @@ delta = backwardpassData['data']
 
 # -------------------------------------
 # As stated in "Deep Inside Convolutional Networks ..." by Simonyan et al., we now compute the image saliency map
-delta = delta - delta.min()		# Subtract min
-delta = delta / delta.max()		# Normalize by dividing by max 
-saliency = np.amax(delta,axis=1)	# Find max across RGB channels 
+delta = delta - delta.min()		      # Subtract min
+delta = delta / delta.max()		      # Normalize by dividing by max 
+saliency = np.amax(delta,axis=1)	  # Find max across RGB channels 
 
 # -------------------------------------
 # Show the saliency map and the image
