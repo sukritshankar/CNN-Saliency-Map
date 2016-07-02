@@ -8,10 +8,6 @@
 import numpy as np 
 import matplotlib.pyplot as plt
 import sys
-import operator
-from PIL import Image
-from PIL import ImageDraw
-import os
 
 # -------- Import Caffe --------------- 
 caffe_root = '/home/sukrit/Desktop/caffe_latest/'  
