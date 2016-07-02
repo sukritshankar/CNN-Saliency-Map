@@ -45,7 +45,7 @@ finalLabelVector[0,LABEL_FOR_SALIENCY] = 1
 net.predict([input_image])
 
 # -------------------------------------
-# Do backward pass using finalLabelVector - Now the net params have been populated 
+# Do backward pass using finalLabelVector - The Net Params are already populated 
 backwardpassData = net.backward(**{net.outputs[0]: finalLabelVector})
 
 # -------------------------------------
