@@ -25,8 +25,8 @@ PRETRAINED_MODEL = 'models/bvlc_reference_caffenet.caffemodel'		# Pretrained CNN
 IMAGE_FILE = 'input_images/cat.jpg'					# Input Image for which saliency has to be computed 
 MEAN_FILE = 'models/ilsvrc_2012_mean.npy'				# Mean file of the dataset with which PRETRAINED_MODEL was trained
 IMAGE_HW_ORIG = 256							# Original Height = Width of Images expected for the PRETRAINED_MODEL
-NUM_OUTPUT_LABELS = 1000						      # Total number of output labels - Should confirm with PRETRAINED_MODEL 
-LABEL_FOR_SALIENCY = 281						      # The label with respect to which saliency is calculated (Starts from 0)
+NUM_OUTPUT_LABELS = 1000						        # Total number of output labels - Should confirm with PRETRAINED_MODEL 
+LABEL_FOR_SALIENCY = 281						        # The label with respect to which saliency is calculated (Starts from 0)
 # +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 
 # -------------------------------------
