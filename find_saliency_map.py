@@ -16,7 +16,7 @@ import caffe
 
 # +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 # You can configure your stuff here
-CNN_ARCH_FILE = 'models/deploy_fc8.prototxt'				# Ensure force_backward: true is included to enable BP to input  
+CNN_ARCH_FILE = 'models/deploy_ref.prototxt'				# Ensure force_backward: true is included to enable BP to input  
 PRETRAINED_MODEL = 'models/bvlc_reference_caffenet.caffemodel'		# Pretrained CNN Model using which saliency needs to be computed
 IMAGE_FILE = 'input_images/cat.jpg'					# Input Image for which saliency has to be computed 
 MEAN_FILE = 'models/ilsvrc_2012_mean.npy'				# Mean file of the dataset with which PRETRAINED_MODEL was trained
